@@ -8,7 +8,7 @@ This worked at DWP.
 - You have a new application set up in Heroku. (In top right hand corner of Heroku go to new > create new app)
 - (**Optional**) You have an SSH key added in Heroku. Managing SSH keys in Heroku
 - You do not have access to any production environments.
-- Your command line tools are up to date – **you can download the latest version form self service, search for Xcode command line tools**
+- Your command line tools are up to date – **you can download the latest version form 'Self Service', search for "Xcode command line tools"**
 
 ## 1. Install Oh-my-ZSH
 
