@@ -26,7 +26,7 @@ https://github.com/marketplace/actions/github-pages-action#%EF%B8%8F-create-ssh-
 
 `cat gh-pages.pub`
 
-Copy the contents shown normally and paste into GitHub 'Deploy Keys' under the Repository settings.
+Copy the contents shown, normally (highlight and 'ctrl/command' + 'c' or right click and 'Copy'), and paste into GitHub 'Deploy Keys' under the Repository settings.
 
 Name the Deploy Key: '`Public key of ACTIONS_DEPLOY_KEY`'
 
@@ -34,7 +34,7 @@ Name the Deploy Key: '`Public key of ACTIONS_DEPLOY_KEY`'
 
 `cat gh-pages`
 
-Copy the contents shown normally and paste into GitHub 'Secrets' > 'Actions' under the Repository settings.
+Copy the contents shown normally (highlight and 'ctrl/command' + 'c' or right click and 'Copy') and paste into GitHub 'Secrets' > 'Actions' under the Repository settings.
 
 Name the Secret Action: '`ACTIONS_DEPLOY_KEY`'
 
