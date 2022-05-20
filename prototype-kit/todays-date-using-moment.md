@@ -182,3 +182,9 @@ Add a code block to provide a date that is 8 years from today's date.
 ```javascript
 HSns
 ```
+
+## Further information
+
+- https://www.npmjs.com/package/nunjucks-date-filter
+- https://momentjs.com/docs/#/get-set/
+- https://momentjs.com/docs/#/displaying/
