@@ -79,6 +79,10 @@ You'll see a message saying '*set git remote heroku to https://git.heroku.com/ex
 You may be asked to sign in to Heroku via the browser.
 
 ```
+git push heroku main
+
+OR
+
 git push heroku master
 ```
 
