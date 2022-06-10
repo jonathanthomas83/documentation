@@ -86,6 +86,14 @@ OR
 git push heroku master
 ```
 
+## Notes
+
+After machine/OS update, the Terminal might not recognise the command and will complain about ZSH. This is a command line tools problem.
+
+1. Download the latest XCode Command Line Tools from Self service
+2. Restart the Terminal
+3. Press Y (Yes) when prompted to update oh-my-zsh.
+
 ## (Optional) Configure to push to GitHub and Heroku
 
 See the following link:
