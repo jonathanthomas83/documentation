@@ -46,18 +46,19 @@ grep -r -h "Some text"
 To find all lines in a file.
 
 ```
-grep 'wordA' filename.txt | grep -v 'word-b'
+grep 'word-a' filename.txt | grep -v 'word-b'
 ```
 
 Using '-r' to recursively search all files within the folder and not specifying a file at the end.
 
 ```
-grep -r 'wordA' | grep -v 'word-b'
+grep -r 'word-a' | grep -v 'word-b'
 ```
 
-Works if you add more words to exclude, too.
+Using the `egrep` command, it works if you add more words to exclude.
+
 ```
-grep -r 'wordA' | grep -v 'word-b' | grep -v 'word-c'
+grep -r 'word-a' | egrep -v 'word-b|word-c'
 ```
 
 ## grep save output to a file
@@ -119,10 +120,10 @@ grep -c -i -r "some text"
 
 ## grep my most used commands
 
-View all to-do notes that aren't related to daily chores and watch list items:
+View all to-do notes that aren't related to daily/weekly chores and watch list items:
 
 ```
-grep -i -h -r '_todo' | grep -v -i '#daily' | grep -v -i -w '#watch'
+grep -i -h -r '_todo' | egrep -v -i -w '#daily|#weekly|#watch'
 ```
 
 View all car notes:
@@ -134,5 +135,5 @@ grep -i -h -r -w '#car'
 View watch list:
 
 ```
-grep -i -h -r '_todo' | grep '#watch'
+grep -i -h -r '_todo' | grep -i -w '#watch'
 ```
