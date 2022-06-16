@@ -9,3 +9,7 @@
 ## HUGO
 
 - [Deploying HUGO with GitHub Actions](/hugo/hugo-github-actions-deployment.md)
+
+## Command line hacks
+
+- [grep](command-line/grep.md)
