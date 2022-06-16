@@ -122,7 +122,7 @@ grep -c -i -r "some text"
 View all to-do notes that aren't related to daily chores and watch list items:
 
 ```
-grep -i -h -r '*todo' | grep -v -i '#daily' | grep -v -i -w '#watch'
+grep -i -h -r '_todo' | grep -v -i '#daily' | grep -v -i -w '#watch'
 ```
 
 View all car notes:
@@ -134,5 +134,5 @@ grep -i -h -r -w '#car'
 View watch list:
 
 ```
-grep -i -h -r '*todo' | grep '#watch'
+grep -i -h -r '_todo' | grep '#watch'
 ```
