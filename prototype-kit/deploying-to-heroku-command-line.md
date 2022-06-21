@@ -86,6 +86,16 @@ OR
 git push heroku master
 ```
 
+## Username and password credentials prompt
+
+You may be asked to login again via the command line.
+
+```
+Do not authenticate with username and password using git.
+Run `heroku login` to update your credentials, then retry the git command.
+```
+Use `heroku login` and press _any key_ when prompted, to enter your details in the browser login for Heroku.
+
 ## Notes
 
 After machine/OS update, the Terminal might not recognise the command and will complain about ZSH. This is a command line tools problem.
