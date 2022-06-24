@@ -1,4 +1,4 @@
-# Prototype kit: Show alternative text when session data is unavailable
+# Prototype kit: Show alternative placeholder text when session data is unavailable
 
 Prototypes often accrue session data as user journey's progress.
 
@@ -16,6 +16,16 @@ To show placeholder text where session data values would normally be shown, use 
 </dd>
 ```
 
+Outputs:
+
+> 24 June 2022
+
+Or:
+
+> [Date of appointee relationship verification]
+
+If session data is unavailable, which is a lot more helpful to developers than an empty line.
+
 ## Nunjucks template
 ```
 {
@@ -27,3 +37,13 @@ To show placeholder text where session data values would normally be shown, use 
   }
 }
 ```
+
+Outputs:
+
+> 24 June 2022
+
+Or:
+
+> [Customer Date of Birth]
+
+If session data is unavailable, which is a lot more helpful to developers than an empty line.
