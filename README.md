@@ -16,6 +16,10 @@
 - [grep](command-line/grep.md)
 - [Find files](command-line/find-files.md)
 
+## Useful things
+
+- [Portable Filenames (The POSIX standard)](portable_filenames_POSIX.md)
+
 ## Helpful links
 
-- [Helpful links](helpful-links.md)
+- [Helpful links](helpful_links.md)
