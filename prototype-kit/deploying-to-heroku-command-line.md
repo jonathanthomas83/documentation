@@ -108,3 +108,20 @@ After machine/OS update, the Terminal might not recognise the command and will c
 
 See the following link:
 https://gist.github.com/rvl/c3f156e117e22a25f242
+
+---
+
+## Heroku fixed the auto-deploy issue
+
+These instructions apply if you set up Heroku according to our guidance. If your department set up Heroku for you, you’ll need to talk to whoever is responsible in your department.
+
+You need to disconnect your app from GitHub if you haven’t done so already:
+
+1. Sign into [heroku.com](http://heroku.com/) (you may need to reset your password)
+2. Select your app from the list (If you have multiple apps, you only need to do this for one of them)
+3. Select Deploy from the navigation
+4. In the section ‘App connected to GitHub’, click the Disconnect button
+
+Now follow the [instructions to deploy from GitHub](https://govuk-prototype-kit.herokuapp.com/docs/publishing-on-heroku#deploy-your-prototype)
+
+If you previously followed our instructions to deploy from the terminal, you no longer need to run `git push heroku` after you have reconnected Heroku to GitHub.
