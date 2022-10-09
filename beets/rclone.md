@@ -17,5 +17,6 @@ When configured, use the following when SSH into the remote server:
 ```
 rclone copyto googleremote:holding files/
 
-rclone copyto [remote-name-(google)]:[remote-folder-(google)] [folder]/
+rclone copyto [remote-name-(google)]:[remote-folder-(google)] [folder]/ -P
 ```
+Add `-P` to show transfer 'progress'.
