@@ -9,6 +9,7 @@
 ```yaml
 # Beets configuration --------------------------------------------------------
 
+# important to use the tilda when on shared servers
 library: ~/music/library.db
 directory: ~/music/
 
