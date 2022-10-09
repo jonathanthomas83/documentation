@@ -20,3 +20,7 @@ rclone copyto googleremote:holding files/
 rclone copyto [remote-name-(google)]:[remote-folder-(google)] [folder]/ -P
 ```
 Add `-P` to show transfer 'progress'.
+
+From: 
+- [https://rclone.org/remote_setup/](https://rclone.org/remote_setup/)
+- [Configuring using SSH Tunnel](https://rclone.org/remote_setup/#configuring-using-ssh-tunnel)
