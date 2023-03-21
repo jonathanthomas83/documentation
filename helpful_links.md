@@ -12,5 +12,5 @@
 - [https://github.com/abbott567/accessibility-report-generator](https://github.com/abbott567/accessibility-report-generator)
 
 ## Communities
-(
+
 - [ukgovernmentdigital.slack.com](ukgovernmentdigital.slack.com) - needs a '.gov.uk' email address to be granted access
