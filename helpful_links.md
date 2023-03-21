@@ -5,6 +5,7 @@
 
 ## Good design patterns
 
+- [https://design-system.dwp.gov.uk/](https://design-system.dwp.gov.uk/)
 - [https://design.tax.service.gov.uk/hmrc-design-patterns/add-to-a-list/](https://design.tax.service.gov.uk/hmrc-design-patterns/add-to-a-list/) Add to a list (HMRC design resources)
 
 ## Accessibility
