@@ -13,4 +13,4 @@
 
 ## Communities
 (
-- [ukgovernmentdigital.slack.com](ukgovernmentdigital.slack.com)
+- [ukgovernmentdigital.slack.com](ukgovernmentdigital.slack.com) - needs a '.gov.uk' email address to be granted access
